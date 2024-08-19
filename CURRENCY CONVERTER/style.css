@@ -43,4 +43,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 2rem;
+  }
+
+  .from , .to{
+    font-size: 19px;
+  }
+  .select-container img {
+   max-width: 2rem;
+  }
+
+  .select-container {
+    display: flex;
+    width: 6rem;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
   }
