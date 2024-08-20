@@ -36,5 +36,8 @@ btn.addEventListener("click" , (evt) => {
     evt.preventDefault(); 
     let amount = document.querySelector(".amount input");
     let amtVal = amount.value;
-    console.log(amtVal)
+    if(amtVal === "" || amtVal<1) {
+        amtVal = 1;
+        amount.value = 1
+    }
 });
