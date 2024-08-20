@@ -89,7 +89,7 @@
     cursor: pointer;
   }
 
-  .amount{
+  #amt{
     justify-content: center;
     align-items: center;
     display: flex;
