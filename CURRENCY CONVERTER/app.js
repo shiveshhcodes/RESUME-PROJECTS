@@ -112,4 +112,4 @@ const BASE_URL = "https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/
   
   window.addEventListener("load", () => {
     updateExchangeRate();
-  })
+  });
