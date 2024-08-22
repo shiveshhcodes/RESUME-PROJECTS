@@ -16,7 +16,6 @@
 
 const quote = document.getElementById("quote");
 const author = document.getElementById("author");
-const loading = document.getElementById("loading");
 const api = 'https://dummyjson.com/quotes/random';
 
 // Function to fetch and display a random quote
