@@ -1,14 +1,13 @@
 const quote = document.getElementById("quote") 
 const author = document.getElementById("author") 
+const api = 'https://dummyjson.com/quotes/random'
 
-const api = "https://api.quotable.io/quotes/random?tags=technology,famous-quotes";
-
-async function getQuote(url){
+async function getQuote(url) {
     const response = await fetch(url);
     var data = await response.json();
-    quote.innerHTML = data.content;
+    quote.innerHTML = data.quote;
     author.innerHTML = data.author; 
 
 }
-
+button.addEventListener("click", updateQuote)
 getQuote(api);
