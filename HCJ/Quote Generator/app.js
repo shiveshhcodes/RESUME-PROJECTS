@@ -1,3 +1,5 @@
+// CODE 1
+
 // const quote = document.getElementById("quote") 
 // const author = document.getElementById("author") 
 // const api = 'https://dummyjson.com/quotes/random'
@@ -14,8 +16,13 @@
 //     getQuote(api); // Fetch and display a new quote
 // });
 
+
+
+// IMPROVEMENT 0.1
+
 const quote = document.getElementById("quote");
 const author = document.getElementById("author");
+// const tweet = document.getElementById("tweet")
 const api = 'https://dummyjson.com/quotes/random';
 
 // Function to fetch and display a random quote
@@ -41,11 +48,16 @@ async function getQuote(url) {
     }
 }
 
-// Adding an event listener to the button to fetch a new quote when clicked
+
 document.getElementById("btn").addEventListener("click", function() {
-    getQuote(api); // Fetch and display a new quote
+    getQuote(api); 
 });
 
 // Initial quote when the page loads
 getQuote(api);
+
+
+document.getElementById("tweet").addEventListener("click" , function(){
+    window.open("https://twitter.com/intent/tweet?text=" + quote.innerHTML)
+})
 
