@@ -23,8 +23,8 @@ const api = 'https://dummyjson.com/quotes/random';
 async function getQuote(url) {
     // Show the loading message
     loading.style.display = "block";
-    quote.innerHTML = "loadingg"; // Clear the previous quote
-    author.innerHTML = "loadingg"; // Clear the previous author
+    quote.innerHTML = "loading"; // Clear the previous quote
+    author.innerHTML = "loading"; // Clear the previous author
     
     try {
         const response = await fetch(url);
@@ -49,3 +49,4 @@ document.getElementById("btn").addEventListener("click", function() {
 
 // Initial quote when the page loads
 getQuote(api);
+
