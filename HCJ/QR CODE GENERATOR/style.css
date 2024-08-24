@@ -56,3 +56,10 @@ body{
     font-size: medium;
     
 }
+
+#imgbox{
+    width: 200px;
+    border-radius: 5px;
+    max-height: 0;
+    overflow: hidden;
+}
