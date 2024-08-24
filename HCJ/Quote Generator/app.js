@@ -58,6 +58,6 @@ getQuote(api);
 
 
 document.getElementById("tweet").addEventListener("click" , function(){
-    window.open("https://twitter.com/intent/tweet?text=" + quote.innerHTML)
+    window.open("https://twitter.com/intent/tweet?text=" + quote.innerHTML + " ---- by " + author.innerHTML , "Tweet Window" , "width=500 , height = 260")
 })
 
