@@ -1,7 +1,7 @@
 *{
    margin: 0;
    padding: 0;
-   font-family: 'Poppins' , sans-serif;
+   font-family: sans-serif;
    box-sizing: border-box;
 }
 
@@ -11,11 +11,12 @@ body{
 
 .container{
     width: 400px;
+    height: 40px;
     padding: 25px , 35px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50% , -50%);
+    transform: translate(-50%,-50%);
     background: #fff;
     border-radius: 10px;
 }
