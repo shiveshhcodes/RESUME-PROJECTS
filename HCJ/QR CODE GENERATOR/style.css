@@ -26,6 +26,7 @@ body{
      font-size: 15px;
      margin-bottom: 8px;
      text-align: center;
+     margin-top: 17px;
 }
 
 .container input {
@@ -33,5 +34,7 @@ body{
     height: 50px;
     border: 1px solid #494eea;
     outline:0;
-    
+    padding: 10px 5px;
+    margin: 10px 0px 20px;
+    border-radius: 5px;
 }
