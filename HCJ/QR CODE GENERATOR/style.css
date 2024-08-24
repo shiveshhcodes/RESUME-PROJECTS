@@ -63,3 +63,8 @@ body{
     max-height: 0;
     overflow: hidden;
 }
+
+#imgbox img {
+    width: 100%;
+    padding: 10px;
+}
