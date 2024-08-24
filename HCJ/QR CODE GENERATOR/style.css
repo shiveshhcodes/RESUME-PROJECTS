@@ -57,14 +57,22 @@ body{
     
 }
 
-#imgbox{
+#imgBox{
     width: 200px;
     border-radius: 5px;
     max-height: 0;
     overflow: hidden;
+    transition: max-height 1s;
 }
 
-#imgbox img {
+#imgBox img {
     width: 100%;
     padding: 10px;
 }
+
+#imgBox.show-img {
+    max-height: 300px;
+    margin: 10px auto;
+    border: 1px solid #d1d1d1  ;
+}
+
