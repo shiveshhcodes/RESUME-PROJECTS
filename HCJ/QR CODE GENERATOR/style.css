@@ -42,7 +42,7 @@ body{
 
 .container button {
     width: 70%;
-    height: 50px;
+    height: 51px;
     background: #494eea;
     color: #fff;
     border: 0;
@@ -58,7 +58,7 @@ body{
 }
 
 #imgBox {
-    width: 200px;
+    width: 202px;
     border-radius: 8px;
     max-height: 0;
     overflow: hidden;
