@@ -4,3 +4,22 @@
     box-sizing: border-box;
     font-family: "Rubik",sans-serif;
 }
+body{
+    height: 100%;
+    background: linear-gradient(
+        to right,
+        #201d2e 50%,
+        #f6f6f6 50%
+    ) fixed;
+}
+.container{
+    width: 90vmin;
+    background-color: #ffffff;
+    padding: 50px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 5px;
+    box-shadow: 0 20px 35px rgba(60,60,60,0.2);
+}
