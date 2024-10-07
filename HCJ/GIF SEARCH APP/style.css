@@ -43,3 +43,10 @@
     margin: 1.5em;
     border-radius: 0.5em;
   }
+  .container img {
+    width: 100%;
+  }
+  .container button {
+    margin-top: 1em;
+    padding: 1em 0;
+  }
