@@ -68,3 +68,17 @@
       transform: translate(-50%, -50%) rotate(360deg);
     }
   }
+  @media screen and (max-width: 768px) {
+    .wrapper {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .container {
+      margin: 0.7em;
+    }
+  }
+  @media screen and (max-width: 576px) {
+    .wrapper {
+      grid-template-columns: 1fr;
+    }
+  }
+  
