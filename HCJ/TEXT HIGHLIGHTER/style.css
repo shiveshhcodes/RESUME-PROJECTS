@@ -42,3 +42,8 @@ body{
     color: #ffffff;
     border-radius: 3px;
 }
+.container p{
+    line-height: 35px;
+    text-align: justify;
+    margin-top: 30px;
+}
