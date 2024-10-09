@@ -31,6 +31,32 @@
             <button class="submit" id="total-amount-button">Set Budget</button>
           </div>
           <!-- Expenditure -->
+          <div class="user-amount-container">
+            <h3>Expenses</h3>
+            <p class="hide error" id="product-title-error">
+              Values cannot be empty
+            </p>
+            <input
+              type="text"
+              class="product-title"
+              id="product-title"
+              placeholder="Enter Title of Product"
+            />
+            <input>
+            type="number"
+              id="user-amount"
+              placeholder="Enter Cost of Product"
+            />
+            <button class="submit" id="check-amount">Check Amount</button>
+          </div>
+        </div>
+        <!-- Output -->
+        <div class="output-container flex-space">
+          <div>
+            <p>Total Budget</p>
+            <span id="amount">0</span>
+          </div>
+          <div>
     <!-- Script -->
     <script src="script.js"></script>
   </body>
