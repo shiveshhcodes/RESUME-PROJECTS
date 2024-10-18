@@ -107,3 +107,17 @@
       color: #414a67;
       margin-left: 20%;
     }
+    .icons-container {
+      width: 5em;
+      margin: 1.2em;
+      align-items: center;
+    }
+    .product-title {
+      margin-bottom: 1em;
+    }
+    .hide {
+      display: none;
+    }
+    .error {
+      color: #ff465a;
+    }
