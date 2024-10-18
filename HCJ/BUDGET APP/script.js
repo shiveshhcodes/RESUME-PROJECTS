@@ -1,4 +1,4 @@
-
+let totalAmount = document.getElementById("total-amount");
 
 totalAmountButton.addEventListener("click", () => {
     tempAmount = totalAmount.value;
