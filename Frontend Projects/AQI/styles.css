@@ -32,6 +32,21 @@ main {
   margin-top: 30px;
 }
 
+.index-table {
+  display: flex;
+  justify-content: center;
+  margin: 12px 0px;
+}
+
+.index-table img {
+  max-width: 70%;
+  height: auto;
+  border: 8px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+
 .card {
   width: 50%;
   max-width: 400px;
@@ -165,7 +180,7 @@ button:hover {
 .component-container div{
   display: flex;
   justify-content: flex-start;
-  gap: 5px;
+  gap: 6px;
 }
 
 .component-val {
