@@ -34,3 +34,15 @@ body {
     width: 100%;
     border-collapse: collapse;
   }
+  .right {
+    flex: 1;
+    padding: 10px;
+    border-left: 1px solid #ccc;
+  }
+  h1 {
+    text-align: center;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
