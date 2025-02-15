@@ -36,3 +36,34 @@ function displayRecords() {
     });
   }
 }
+
+recordForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+    const name = nameInput.value;
+    const age = ageInput.value;
+    const email = emailInput.value;
+    const editIndex = parseInt(editIndexInput.value);
+
+    
+    if (name &amp;&amp; age &amp;&amp; email) {
+        if (isDuplicateName(email) &amp;&amp; editIndex === -1) {
+          alert('Student already exists.');
+          return;
+        }
+    
+        if (editIndex === -1) {
+          // Add a new record
+          records.push({ name, age, email });
+        } else {
+          // Update an existing record
+          records[editIndex] = { name, age, email };
+          editIndexInput.value = -1;
+        }
+
+        localStorage.setItem('records', JSON.stringify(records));
+    nameInput.value = '';
+    ageInput.value = '';
+    emailInput.value = '';
+    displayRecords();
+  }
+});
