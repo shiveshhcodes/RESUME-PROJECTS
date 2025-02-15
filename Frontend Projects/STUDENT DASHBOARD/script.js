@@ -67,3 +67,25 @@ recordForm.addEventListener('submit', function (e) {
     displayRecords();
   }
 });
+
+function deleteRecord(index) {
+    displayRecords();
+    let delBtn = document.querySelectorAll('.deleteButton');
+    console.log(delBtn);
+    delBtn[
+      index
+    ].innerHTML = `<i id="yesBtn" class="fa-solid fa-check"></i><i id="noBtn" class="fa-solid fa-xmark"></i>`;
+  }
+  
+  function confirmDelete(index) {
+    records.splice(index, 1);
+    localStorage.setItem('records', JSON.stringify(records));
+    displayRecords();
+  }
+  
+  function resetDelete(index) {
+    displayRecords();
+  }
+  
+  // Initial display
+  displayRecords();
