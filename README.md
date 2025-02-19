@@ -4,18 +4,6 @@
 
 A web application that checks the Air Quality Index (AQI) of any location and displays the concentration of pollutants in the air. The app uses the OpenWeatherMap API for fetching real-time air quality data.
 
-## Table of Contents
-
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [API Key Setup](#api-key-setup)
-- [File Structure](#file-structure)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Project Overview
 
