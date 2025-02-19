@@ -22,3 +22,11 @@ The **Air Quality and Pollution Checker** is a tool to check the air quality ind
 - JavaScript (ES6)
 - [OpenWeatherMap API](https://openweathermap.org/api) for AQI and geolocation data
 
+## Project Screenshots
+
+![Project Screenshot](images/projectSS01.png)
+![Project Screenshot](images/projectSS02.png)
+
+
+
+
