@@ -10,3 +10,11 @@ FUN Dictionary is an interactive web-based dictionary application that allows us
 - Interactive buttons to play the word's pronunciation sound.
 - Error handling for invalid or non-existent words.
 - Responsive design that adapts to different screen sizes.
+
+## Technologies and Tools:
+- HTML5, CSS3 for the structure and design.
+- JavaScript for interaction and API integration.
+- Dictionary API to retrieve word data.
+- Font Awesome for icons.
+- Google Fonts for custom typography.
+- Media queries for responsive design.
