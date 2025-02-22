@@ -11,3 +11,12 @@ The GIF Search App is a simple web application that allows users to search for G
 - **Loading Animation**: A spinner loader is displayed while GIFs are being fetched from the API.
 - **Responsive Design**: The layout adapts to various screen sizes, displaying 3 GIFs per row on larger screens, 2 GIFs on medium screens, and 1 GIF on smaller devices.
 - **Enter Key Support**: Users can trigger a search by pressing the "Enter" key.
+
+## Technologies and Tools
+- **HTML5**: Provides the structure of the app's interface.
+- **CSS3**: Used for styling the app, including a custom loading spinner and responsive grid layout.
+- **JavaScript (ES6)**: Handles API requests, DOM manipulation, and event handling.
+- **Giphy API**: External API used to fetch GIFs based on user input.
+- **Google Fonts**: Custom font integration using Poppins for modern typography.
+- **Fetch API**: JavaScript feature for making asynchronous API calls.
+
