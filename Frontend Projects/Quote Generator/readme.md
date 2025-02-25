@@ -22,5 +22,21 @@ The **Quote Generator** is a web-based project designed to display a random moti
 - **DummyJSON API**: Source for fetching random quotes.
 - **Twitter API**: Integration with Twitter to tweet the quote directly.
 
+## How to Use
+
+1. Clone the repository or download the project files.
+2. Open the `index.html` file in your browser.
+3. Click the **New Quote** button to fetch and display a random quote.
+4. Click the **Tweet** button to share the quote on Twitter.
+
+## Project Structure
+
+```plaintext
+.
+├── index.html       # Main HTML file
+├── style.css        # Styling for the webpage
+└── app.js           # JavaScript to handle fetching and displaying quotes
+
+
 
 
