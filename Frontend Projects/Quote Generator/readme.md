@@ -13,3 +13,14 @@ The **Quote Generator** is a web-based project designed to display a random moti
 - Shows a loading message while fetching the new quote.
 - Handles errors gracefully if the quote fails to load.
 
+## Technologies and Tools
+
+- **HTML5**: Structuring the content of the web page.
+- **CSS3**: Styling the web page to create a visually appealing design.
+- **JavaScript (ES6)**: Handling asynchronous requests to fetch data from the API, updating the DOM, and enabling the tweet functionality.
+- **Fetch API**: To make HTTP requests to the random quote API.
+- **DummyJSON API**: Source for fetching random quotes.
+- **Twitter API**: Integration with Twitter to tweet the quote directly.
+
+
+
