@@ -1,4 +1,8 @@
-# RESUME-PROJECTS
+# Resume-Projects
 
-A web-based resume built using HTML, CSS, and JavaScript, designed to showcase your portfolio, projects, and professional experience. This project allows developers to create a personal resume website that can be hosted on GitHub Pages.
+This repository serves as a comprehensive showcase of all the projects I've worked on, highlighting my technical skills and experience in various domains, including frontend development, Python, and more. Each project is organized into distinct folders with relevant documentation to make it easier to navigate through my work. This repository acts as an extension of my resume, allowing potential employers or collaborators to explore my code, solutions, and contributions.
+
+## Project Structure
+
+The repository is structured to separate different types of projects and related files, ensuring clarity and ease of access:
 
