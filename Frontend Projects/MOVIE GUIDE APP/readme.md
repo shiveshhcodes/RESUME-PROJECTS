@@ -19,3 +19,15 @@ A simple web application that allows users to search for movie details using the
 - Fetch and display movie details like the poster, title, IMDB rating, genre, plot, and cast.
 - Responsive design that works on all screen sizes.
 - Error handling for invalid or non-existent movies.
+
+## Technologies Used
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- OMDb API (for fetching movie data)
+
+## How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/movie-guide-app.git
