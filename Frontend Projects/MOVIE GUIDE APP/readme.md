@@ -13,3 +13,9 @@ A simple web application that allows users to search for movie details using the
 
 ## Demo
 [Click here](#) to see the live demo of the app.
+
+## Features
+- Search for movies by title.
+- Fetch and display movie details like the poster, title, IMDB rating, genre, plot, and cast.
+- Responsive design that works on all screen sizes.
+- Error handling for invalid or non-existent movies.
