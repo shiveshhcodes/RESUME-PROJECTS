@@ -30,4 +30,4 @@ A simple web application that allows users to search for movie details using the
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/movie-guide-app.git
+   git clone https://github.com/shiveshhcodes/movie-guide-app.git
