@@ -21,3 +21,14 @@ A simple web-based student management dashboard that allows users to add, edit, 
 - Simple and responsive UI for easy navigation.
 - No backend required; all data is stored in the browser.
 
+## Technologies Used
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- LocalStorage API (for storing student data in the browser)
+
+## How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/student-dashboard-project.git
