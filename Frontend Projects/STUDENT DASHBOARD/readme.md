@@ -10,3 +10,14 @@ A simple web-based student management dashboard that allows users to add, edit, 
 - [File Structure](#file-structure)
 - [License](#license)
 
+## Demo
+[Click here](#) to see the live demo of the project.
+
+## Features
+- Add new student records with fields for name, age, and email.
+- Edit existing student records.
+- Delete student records with a confirmation dialog.
+- LocalStorage-based data persistence to retain student records across sessions.
+- Simple and responsive UI for easy navigation.
+- No backend required; all data is stored in the browser.
+
