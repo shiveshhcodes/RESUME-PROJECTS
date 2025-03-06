@@ -26,8 +26,8 @@ A simple web application that allows users to search for movie details using the
 - JavaScript (ES6)
 - OMDb API (for fetching movie data)
 
-## How to Run
+<!-- ## How to Run
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/shiveshhcodes/movie-guide-app.git
+   git clone https://github.com/shiveshhcodes/movie-guide-app.git -->
