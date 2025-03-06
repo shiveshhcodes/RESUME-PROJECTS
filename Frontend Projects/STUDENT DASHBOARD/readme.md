@@ -25,7 +25,6 @@ A simple web-based student management dashboard that allows users to add, edit, 
 - HTML5
 - CSS3
 - JavaScript (ES6)
-- LocalStorage API (for storing student data in the browser)
 
 ## How to Run
 
